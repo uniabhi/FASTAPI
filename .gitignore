@@ -1,0 +1,53 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.key
+*.pem
+secrets.json
+echo "house_predection_api/house_model.joblib" >> .gitignore
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Build, packaging, and test reports
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Keep house_model.joblib and house_features.joblib: the API needs them.
+
+*.joblib
+
